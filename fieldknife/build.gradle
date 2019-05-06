@@ -3,7 +3,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.cn-xuqing'
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    api project(':fieldknifeannotation');
+    compile project(':fieldknifeannotation');
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8
