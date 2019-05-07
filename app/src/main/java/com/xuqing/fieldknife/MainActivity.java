@@ -3,6 +3,8 @@ package com.xuqing.fieldknife;
 import android.app.Activity;
 import android.os.Bundle;
 
+import test.Test;
+
 public class MainActivity extends Activity {
 
     @Override
@@ -10,6 +12,6 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        System.out.println(Test.TEST);
+        System.out.println(">>>>>>>>>>"+Test.TEST);
     }
 }
