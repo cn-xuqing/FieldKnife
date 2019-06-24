@@ -1,6 +1,5 @@
-package test;
+package com.xuqing.fieldknife;
 
-import com.xuqing.fieldknife.FieldKnife;
 import com.xuqing.fieldknifeannotation.BindObject;
 
 @BindObject

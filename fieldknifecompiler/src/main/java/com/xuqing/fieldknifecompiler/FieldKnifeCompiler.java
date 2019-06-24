@@ -22,6 +22,9 @@ import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.Modifier;
 import javax.lang.model.element.TypeElement;
 
+/**
+ * @author xuqing
+ */
 @AutoService(Processor.class)
 public class FieldKnifeCompiler extends AbstractProcessor {
     private Filer filer;
@@ -73,7 +76,6 @@ public class FieldKnifeCompiler extends AbstractProcessor {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                return true;
             }
         }
         return false;

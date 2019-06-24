@@ -12,8 +12,8 @@ android {
 }
 
 dependencies {
-    //implementation 'com.github.cn-xuqing.fieldknife:fieldknife:2.0.1'
-    //annotationProcessor 'com.github.cn-xuqing.fieldknife:fieldknifecompiler:2.0.1'
+    //implementation 'com.github.cn-xuqing.fieldknife:fieldknife:2.0.2'
+    //annotationProcessor 'com.github.cn-xuqing.fieldknife:fieldknifecompiler:2.0.2'
     implementation project(':fieldknife')
     annotationProcessor project(':fieldknifecompiler')
 }

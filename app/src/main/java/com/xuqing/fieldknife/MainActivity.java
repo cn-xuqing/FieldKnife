@@ -3,8 +3,6 @@ package com.xuqing.fieldknife;
 import android.app.Activity;
 import android.os.Bundle;
 
-import test.Test;
-
 public class MainActivity extends Activity {
 
     @Override
